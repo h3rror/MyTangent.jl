@@ -13,6 +13,6 @@ end
     f(x) = 2x + 1
     g(x) = x^2
 
-    @test tangent(f,1)(2) ≈ f(2) atol 0.01
-    @test tangent(g,0)(3) ≈ 0 atol 0.1
+    @test tangent(f,1)(2) ≈ f(2) atol = 0.01
+    @test tangent(g,0)(3) ≈ 0 atol = 0.1
 end
